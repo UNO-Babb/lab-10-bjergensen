@@ -27,12 +27,7 @@ for bean in coffee:
 df = pandas.DataFrame({"Type": types,
                          "Score": scores})
 
-avg_scores = df.groupby("Type").mean(numeric_only=True)
-
 print(df)
-avg_scores.plot(kind = 'bar', legend=False)
-plt.ylabel("Average Score")
-plt.title("Average Coffee Scores by Species")
-plt.tight_layout()
+df.plot(kind = 'scatter', x = 'Type', y = 'Score')
 #plt.plot(years, scores, 'ro')
-plt.savefig("output")
+plt.savefig("output2")

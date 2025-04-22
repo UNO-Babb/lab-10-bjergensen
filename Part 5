@@ -1,0 +1,9 @@
+#between the two graphs it is easy to see that both Arabica and Robusta beans 
+have an average score of about 80. I can also see from the bar scatter plot
+that Robusta is more precisely rated around it's average, where Arabica is
+less precise while still maintaining a similar average
+
+It would take forever for me to read all of the numbers and create a mental
+image in my head, so this is very convenient for visualization. It also helps
+to see the precision on the scatter plot, where even if I found an average
+via calcuations, I still wouldn't see how they are more spread out.
